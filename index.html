@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo NovaGestão</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+<body>
+  <body>
+
+<div class="logo-container">
+
+    <div class="simbolo">
+        <div class="letra-n">N</div>
+        <div class="letra-g">G</div>
+
+        <div class="grafico">
+            <div class="barra"></div>
+            <div class="barra"></div>
+            <div class="barra"></div>
+        </div>
+    </div>
+
+    <div class="nome">
+        Nova<span>Gestão</span>
+    </div>
+
+    <div class="slogan">
+        Soluções Administrativas
+    </div>
+
+    <div class="linha"></div>
+
+</div>
+  <form id="formulario">
+    <h1>Cadastro</h1>
+
+    <h2>Dados pessoais</h2>
+
+    <input type="text" name="nome" placeholder="Nome completo" required>
+
+    <input type="email" name="email" placeholder="E-mail" required>
+
+    <input type="tel" name="telefone" placeholder="Telefone">
+
+    <input type="text" name="cpf" placeholder="CPF">
+
+    <label for="nascimento">Data de nascimento:</label>
+    <input type="date" name="nascimento" id="nascimento">
+
+    <input type="text" name="cidade" placeholder="Cidade e estado">
+
+    <h2>Informações profissionais</h2>
+
+    <select name="vaga" required>
+      <option value="">Selecione a vaga desejada</option>
+      <option value="auxiliar-administrativo">Auxiliar Administrativo</option>
+      <option value="assistente-administrativo">Assistente Administrativo</option>
+      <option value="recepcionista">Recepcionista</option>
+      <option value="rh">Assistente de Recursos Humanos</option>
+      <option value="financeiro">Assistente Financeiro</option>
+      <option value="estagio">Estágio em Administração</option>
+    </select>
+
+    <select name="escolaridade" required>
+      <option value="">Escolaridade</option>
+      <option value="medio-incompleto">Ensino Médio Incompleto</option>
+      <option value="medio-completo">Ensino Médio Completo</option>
+      <option value="tecnico">Curso Técnico</option>
+      <option value="superior-cursando">Ensino Superior Cursando</option>
+      <option value="superior-completo">Ensino Superior Completo</option>
+      <option value="pos-graduacao">Pós-graduação</option>
+    </select>
+
+    <select name="experiencia" required>
+      <option value="">Possui experiência profissional?</option>
+      <option value="sem-experiencia">Sem experiência</option>
+      <option value="menos-de-1-ano">Menos de 1 ano</option>
+      <option value="1-a-3-anos">De 1 a 3 anos</option>
+      <option value="mais-de-3-anos">Mais de 3 anos</option>
+    </select>
+
+    <input type="text" name="empresa" placeholder="Última empresa em que trabalhou">
+
+    <input type="text" name="cargo" placeholder="Último cargo ocupado">
+
+    <input type="text" name="cursos" placeholder="Cursos e qualificações">
+
+    <input type="text" name="informatica" placeholder="Conhecimentos em informática">
+
+    <textarea name="habilidades" placeholder="Quais são suas principais habilidades?"></textarea>
+
+    <textarea name="mensagem" placeholder="Mensagem"></textarea>
+
+    <button type="submit">Enviar candidatura</button>
+
+    <p id="aviso"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
